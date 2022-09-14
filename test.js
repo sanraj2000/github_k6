@@ -14,6 +14,9 @@ export default function () {
   const res = http.get('https://test.k6.io');
   sleep(1);
 }*/
+import http from 'k6/http';
+import encoding from 'k6/encoding';
+import { check } from 'k6';
 const username  = 'vmm';
 const password = 'Test@123';
 export default function () {
