@@ -17,10 +17,10 @@ on:
 jobs:
   
   k6_load_test:
-  name: k6 Load Test
-  runs-on: ubuntu-latest
+   name: k6 Load Test
+   runs-on: ubuntu-latest
 
-  steps:
+   steps:
     - name: Checkout
       uses: actions/checkout@v1
 
